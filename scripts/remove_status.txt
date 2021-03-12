@@ -1,0 +1,15 @@
+Maintainer: Thomas Lange <lange@debian.org>
+Depends: libc6 (>= 2.14), libtinfo6 (>= 6)
+Installed-Size: 1311
+Config-Version: 6.20.00-7+b1
+Version: 6.20.00-7+b1
+Provides: c-shell
+Section: shells
+Homepage: http://www.tcsh.org/
+Architecture: amd64
+Description: TENEX C Shell, an enhanced version of Berkeley csh The TENEX C Shell is an enhanced version of the Berkeley Unix C shell. It includes all features of 4.4BSD C shell, plus a command-line editor, programmable word completion, spelling correction and more.
+Source: tcsh (6.20.00-7)
+Package: tcsh
+Status: deinstall ok config-files
+Priority: optional
+Conffiles:  /etc/complete.tcsh d652e6a7ff93ce70267f9a2144d3fed0 /etc/csh.cshrc 65b64b568961430fb7e61b26dba37efa /etc/csh.login a9662543d9bbc312cbeb3e18a62e0ee0 /etc/csh.logout d753c13e2000ee9fc65dd23417b6d00f /etc/emacs/site-start.d/50tcsh.el 1a690009347f80053893cc31170bcd80
